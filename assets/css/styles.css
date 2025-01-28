@@ -4,69 +4,17 @@
   word-break: break-word;
 }
 
-/* .container {
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  scroll-behavior: smooth;
-  height: 100%;
+.card p{
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+  will-change: transform;
 }
 
-.header-row {
-  background-color: hsla(39, 100%, 50%, 0.90);
-  backdrop-filter: blur(25px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0px;
+.card:hover p{
+  transition-duration: 0.5s;
+  transform: translateY(0%);
 }
 
-.header-row .box {
-  padding: 10px;
-}
-
-.header-row li {
-  display: inline;
-  padding: 5px;
-  font-size: larger;
-}
-
-.header-row a {
-  text-decoration: none;
-  color: hsl(0, 0%, 0%);
-}
-
-.header-row a:hover {
+.card span a:hover:focus {
   text-decoration: underline;
 }
-
-.row {
-  padding: 100px;
-  height: 75%;
-}
-
-.row .box {
-  padding: 20px;
-  margin: 10px;
-}
-
-.footer {
-  padding: 20px;
-  margin: 0px;
-  background-color: black;
-  color: white;
-  font-size: large;
-  text-align: center;
-}
-
-button {
-  background-color: teal;
-  padding: 10px;
-  color: white;
-  border: none;
-  border-radius: 50px;
-} */
