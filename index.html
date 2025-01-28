@@ -40,12 +40,12 @@
   </head>
   <body>
     <div class="wrapper text-lg">
-      <section
-        class="fixed left-0 right-0 py-6 px-5 bg-orange-300/80 backdrop-blur-xl z-50"
+      <header
+        class="sticky top-0 left-0 right-0 py-6 px-5 bg-orange-300/80 backdrop-blur-xl z-50"
       >
         <div class="flex justify-between max-w-6xl mx-auto">
-        <a href="#"><h1 class="text-3xl font-bold">Samarth Savant</h1></a>
-          <nav class="">
+          <a href="#"><h1 class="text-3xl font-bold">Samarth Savant</h1></a>
+          <nav class="hidden md:block">
             <ul class="flex gap-5 h-full items-stretch">
               <li>
                 <a
@@ -78,13 +78,13 @@
             </ul>
           </nav>
         </div>
-      </section>
+      </header>
 
       <section
-        class="h-screen flex justify-center px-10 items-center"
+        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center"
         id="home"
       >
-        <div class="flex justify-between gap-5 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-5 max-w-6xl mx-auto">
           <div class="flex flex-col justify-center">
             <h1 class="text-5xl font-semibold pb-8">Frontend Developer</h1>
             <p class="text-lg">
@@ -115,8 +115,9 @@
               >
             </div>
           </div>
-          <div class="">
+          <div>
             <img
+              class="mx-auto"
               src="https://picsum.photos/id/2/400/400"
               alt=""
             />
@@ -126,51 +127,118 @@
 
       <section
         id="projects"
-        class="h-screen flex justify-center px-10 items-center bg-red-400"
+        class="md:h-screen flex justify-center px-10 py-16 md:py-0 md:px-5 lg:px-10 items-center bg-red-400"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Projects</h1>
           <div class="grid md:grid-cols-3 gap-5">
             <div class="card">
-              <h3>Feast Finder</h3>
+              <h3 class="flex justify-between px-1">
+                <span class="font-semibold">Feast Finder</span>
+                <span
+                  ><a
+                    class="underline"
+                    target="_blank"
+                    href="https://github.com/codersam10/feast-finder-react"
+                  >
+                    Repo</a
+                  >|
+                  <a
+                    class="underline"
+                    target="_blank"
+                    href="https://main--fancy-lolly-e08455.netlify.app/"
+                    >Live</a
+                  ></span
+                >
+              </h3>
               <div class="relative rounded-md overflow-hidden">
                 <img
                   class="rounded-md overflow-hidden h-64 object-contain bg-black"
                   src="./assets/images/feastfinder.png"
                   alt=""
                 />
-                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
-                  A web application that allows users to search for restaurants
+                <p
+                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                >
+                  🍽️ Discover your next culinary adventure with this React-based
+                  Restaurant Search app! 📱 Find your faves: 🔍 Search & filter
+                  effortlessly. Data-driven delight: 📡 Fetches real-time data
+                  with REST APIs. Mobile-friendly magic: 🍔 Seamless browsing on
+                  any device. Intuitive & easy: ✨ User-friendly interface with
+                  clear navigation. Menu magic: 🔽 Explore menus with our handy
+                  accordion.
                 </p>
               </div>
             </div>
 
             <div class="card">
-              <h3>Mart</h3>
+              <h3 class="flex justify-between px-1">
+                <span class="font-semibold">Mart</span>
+                <span
+                  ><a
+                    class="underline"
+                    target="_blank"
+                    href="https://github.com/codersam10/mart-ecommerce-app-react"
+                  >
+                    Repo</a
+                  >|
+                  <a
+                    class="underline"
+                    target="_blank"
+                    href="https://codersam10.github.io/mart-ecommerce-app-react/"
+                    >Live</a
+                  ></span
+                >
+              </h3>
               <div class="relative rounded-md overflow-hidden">
                 <img
                   class="rounded-md overflow-hidden h-64 object-contain bg-black"
                   src="./assets/images/mart.png"
                   alt=""
                 />
-                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorem quia nobis eligendi reiciendis.
+                <p
+                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                >
+                  🛍️ Shop 'til you drop with this fun e-commerce app! ✨ Built
+                  with React, Vite, and the stylish Tailwind CSS, it's easy to
+                  browse 🔍, find your faves ❤️, and add them to your cart 🛒 in
+                  no time. ⚡️ React Router keeps things flowing smoothly for a
+                  seamless shopping experience 🛒.
                 </p>
               </div>
             </div>
 
             <div class="card">
-              <h3>Tasks</h3>
+              <h3 class="flex justify-between px-1">
+                <span class="font-semibold">Tasks</span>
+                <span
+                  ><a
+                    class="underline"
+                    target="_blank"
+                    href="https://github.com/codersam10/todo-list-react"
+                  >
+                    Repo</a
+                  >|
+                  <a
+                    class="underline"
+                    target="_blank"
+                    href="https://codersam10.github.io/todo-list-react/"
+                    >Live</a
+                  ></span
+                >
+              </h3>
               <div class="relative rounded-md overflow-hidden">
                 <img
-                class="rounded-md overflow-hidden h-64 object-contain bg-black"
-                src="./assets/images/tasks.png"
+                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  src="./assets/images/tasks.png"
                   alt=""
                 />
-                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorem quia nobis eligendi reiciendis.
+                <p
+                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                >
+                  Tasks is Your Offline Superpower⚡️. A sleek React PWA for
+                  effortlessly managing your to-do list, even without internet.
+                  Add, track, and conquer your daily goals with ease.
                 </p>
               </div>
             </div>
@@ -180,7 +248,7 @@
 
       <section
         id="about"
-        class="h-screen flex justify-center px-10 items-center"
+        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">About</h1>
@@ -202,7 +270,7 @@
             Basic knowledge: Bootstrap 5, Netlify deployment, Github-Pages
             deployment
           </p>
-          <p class="text-6xl flex justify-around pt-10">
+          <p class="text-6xl flex flex-wrap justify-around pt-10">
             <i class="ri-reactjs-fill"></i><i class="ri-javascript-fill"></i
             ><i class="ri-tailwind-css-fill"></i><i class="ri-github-fill"></i
             ><i class="ri-nodejs-line"></i><i class="ri-bootstrap-fill"></i>
@@ -212,7 +280,7 @@
 
       <section
         id="contact"
-        class="h-screen flex justify-center px-10 items-center bg-yellow-200"
+        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center bg-yellow-200"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Contact</h1>
@@ -222,11 +290,11 @@
             <div>
               <h3 class="text-2xl pb-1">Samarth Savant</h3>
               <p class="pb-1"><b>Address: </b>Bengaluru, Karnataka, India</p>
-              <p class="pb-1"><b>Email Address: </b>savantsamarth@gmail.com</p>
+              <p class="pb-1"><b>Email Address: </b><a class="underline" href="mailto:savantsamarth@gmail.com">savantsamarth@gmail.com</a></p>
               <p class="pb-1">
-                <b>LinkedIn: </b>https://www.linkedin.com/in/samarth-savant/
+                <b>LinkedIn: </b><a class="underline" target="_blank" href="https://www.linkedin.com/in/samarth-savant/">https://www.linkedin.com/in/samarth-savant/</a>
               </p>
-              <p><b>Phone Number: </b>+917892743159</p>
+              <p><b>Phone Number: </b><a class="underline" href="tel:+917892743159">+917892743159</a></p>
             </div>
             <form
               method="post"
@@ -256,7 +324,7 @@
                 <textarea
                   class="border py-1.5 px-3 rounded-md mb-1 bg-yellow-100"
                   rows="3"
-                  cols="40"
+                  cols="30"
                   name="message"
                   placeholder="Enter message"
                   required
@@ -273,9 +341,9 @@
         </div>
       </section>
 
-      <section class="footer text-center bg-black text-white py-5">
-        @copyright 2024. All rights reserved.
-      </section>
+      <footer class="footer text-center bg-black text-white py-5">
+        @copyright 2025. All rights reserved.
+      </footer>
     </div>
   </body>
 </html>
