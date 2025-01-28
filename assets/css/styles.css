@@ -1,63 +1,72 @@
-    .container {
-      position: fixed;
-      overflow: auto;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      scroll-behavior: smooth;
-      height: 100%;
-    }
+*{
+  font-family: "Poppins", serif;
+  font-style: normal;
+  word-break: break-word;
+}
 
-    .header-row {
-      background-color: orange;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0px;
-    }
+/* .container {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+}
 
-    .header-row .box {
-      padding: 10px;
-    }
+.header-row {
+  background-color: hsla(39, 100%, 50%, 0.90);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
 
-    .header-row li {
-      display: inline;
-      padding: 5px;
-      font-size: larger;
-    }
+.header-row .box {
+  padding: 10px;
+}
 
-    .header-row a {
-      text-decoration: none;
-    }
+.header-row li {
+  display: inline;
+  padding: 5px;
+  font-size: larger;
+}
 
-    .header-row a:hover {
-      text-decoration: underline;
-    }
+.header-row a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
 
-    .row {
-      padding: 100px;
-      height: 75%;
-    }
+.header-row a:hover {
+  text-decoration: underline;
+}
 
-    .row .box {
-      padding: 20px;
-      margin: 10px;
-    }
+.row {
+  padding: 100px;
+  height: 75%;
+}
 
-    .footer {
-      padding: 20px;
-      margin: 0px;
-      background-color: black;
-      color: white;
-      font-size: large;
-    }
+.row .box {
+  padding: 20px;
+  margin: 10px;
+}
 
-    button {
-      background-color: teal;
-      padding: 10px;
-      color: white;
-      border: none;
-      border-radius: 10%;
-    }
+.footer {
+  padding: 20px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+button {
+  background-color: teal;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+} */

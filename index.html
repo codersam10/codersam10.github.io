@@ -2,173 +2,280 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Samarth Savant</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/styles.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://unpkg.com/@tailwindcss/browser@4"
+    ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="header-row"> 
-        <div class="box"><h1>Samarth Savant</h1></div>
-        <div class="box">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row" id="home">
-        <div style="display: flex;padding-top: 50px;">
-          <div class="box">
-            <h1>Frontend Developer</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <button>Button 1</button>
-            <button>Button 1</button>
-          </div>
-          <div class="box">
-            <img src="https://picsum.photos/id/2/400/400" />
-          </div>
-        </div>
-      </div>
-
-      <div id="projects" class="row" style="background-color: lightcoral">
-        <h1>Projects</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Project 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Project 2</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Project 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="services" class="row" style="background-color: lightblue">
-        <h1>Services</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Web App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Mobile App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Backend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="about" class="row">
-        <h1>About</h1>
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
-          optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
-          ipsa veniam deserunt asperiores nesciunt at provident itaque
-          cupiditate vel dolor.
-        </h3>
-        <h2>Skills</h2>
-        <h3>Java, Python, Reactjs</h3>
-        <p>Display the logo of all the technologies you know.</p>
-      </div>
-      <div
-        id="contact"
-        class="row"
-        style="background-color: lightgoldenrodyellow"
+    <div class="wrapper text-lg">
+      <section
+        class="fixed left-0 right-0 py-6 px-5 bg-orange-300/80 backdrop-blur-xl z-50"
       >
-        <h1>Contact</h1>
-        <div style="display: flex">
-         
+        <div class="flex justify-between max-w-6xl mx-auto">
+        <a href="#"><h1 class="text-3xl font-bold">Samarth Savant</h1></a>
+          <nav class="">
+            <ul class="flex gap-5 h-full items-stretch">
+              <li>
+                <a
+                  class="inline-block h-full grid place-content-center"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="inline-block h-full grid place-content-center"
+                  href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  class="inline-block h-full grid place-content-center"
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="inline-block h-full grid place-content-center"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
 
-          <div class="box">
-            <h3>Contact Form</h3>
-            <p>
-             <input type="text" placeholder="Enter Name">
+      <section
+        class="h-screen flex justify-center px-10 items-center"
+        id="home"
+      >
+        <div class="flex justify-between gap-5 max-w-6xl mx-auto">
+          <div class="flex flex-col justify-center">
+            <h1 class="text-5xl font-semibold pb-8">Frontend Developer</h1>
+            <p class="text-lg">
+              I'm a passionate frontend developer⚡️ driven to craft seamless,
+              user-centric digita l experiences that leave a lasting
+              impression✨.
             </p>
-            <p>
-              <input type="email" placeholder="Enter Email">
-             </p>
-             <p>
-              <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
-             </p>
-             <button>Send</button>
+            <div class="pt-5 flex gap-3">
+              <a
+                href="https://www.linkedin.com/in/samarth-savant/"
+                target="_blank"
+                ><button
+                  class="text-white py-2 px-3 rounded-md"
+                  style="background-color: #0a66c2"
+                >
+                  <i class="ri-linkedin-box-fill"></i> LinkedIn
+                </button></a
+              >
+              <a
+                href="https://github.com/codersam10"
+                target="_blank"
+                ><button
+                  class="text-white py-2 px-3 rounded-md"
+                  style="background-color: #000000"
+                >
+                  <i class="ri-github-fill"></i> GitHub
+                </button></a
+              >
+            </div>
           </div>
-
-          <div class="box">
-            <h3>Your/Company Name</h3>
-            <p>
-              <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-            <p>
-              <b>Email Address: </b>sample@email.com
-            </p>
-            <p>
-              <b>Phone Number: </b>+91 343 445 6789
-            </p>
+          <div class="">
+            <img
+              src="https://picsum.photos/id/2/400/400"
+              alt=""
+            />
           </div>
         </div>
-      </div>
-      <div class="footer">@copyright 2024. All rights reserved.</div>
+      </section>
+
+      <section
+        id="projects"
+        class="h-screen flex justify-center px-10 items-center bg-red-400"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h1 class="text-5xl pb-8 font-semibold">Projects</h1>
+          <div class="grid md:grid-cols-3 gap-5">
+            <div class="card">
+              <h3>Feast Finder</h3>
+              <div class="relative rounded-md overflow-hidden">
+                <img
+                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  src="./assets/images/feastfinder.png"
+                  alt=""
+                />
+                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
+                  A web application that allows users to search for restaurants
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Mart</h3>
+              <div class="relative rounded-md overflow-hidden">
+                <img
+                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  src="./assets/images/mart.png"
+                  alt=""
+                />
+                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem quia nobis eligendi reiciendis.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Tasks</h3>
+              <div class="relative rounded-md overflow-hidden">
+                <img
+                class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                src="./assets/images/tasks.png"
+                  alt=""
+                />
+                <p class="pt-5 text-sm absolute bottom-0 p-2 bg-black/50 text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem quia nobis eligendi reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="h-screen flex justify-center px-10 items-center"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h1 class="text-5xl pb-8 font-semibold">About</h1>
+          <p class="pb-4">
+            My journey into web development began with a fascination for how
+            technology can shape human interaction🌐. Throughout my studies in
+            Computer Science Engineering, I honed my skills through a
+            combination of coursework, personal projects, and a dedication to
+            continuous learning📚, always seeking innovative approaches to
+            problem-solving💡 Skills and Expertise.
+          </p>
+          <h2 class="text-2xl font-semibold">Skills</h2>
+          <p>
+            JavaScript ES6, React JS, Tailwind CSS, Git, Github, Semantic HTML,
+            CSS, Responsive Web Design
+          </p>
+          <p>Introductory Knowledge on: Redux Toolkit, Node JS, Restful API</p>
+          <p>
+            Basic knowledge: Bootstrap 5, Netlify deployment, Github-Pages
+            deployment
+          </p>
+          <p class="text-6xl flex justify-around pt-10">
+            <i class="ri-reactjs-fill"></i><i class="ri-javascript-fill"></i
+            ><i class="ri-tailwind-css-fill"></i><i class="ri-github-fill"></i
+            ><i class="ri-nodejs-line"></i><i class="ri-bootstrap-fill"></i>
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="h-screen flex justify-center px-10 items-center bg-yellow-200"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h1 class="text-5xl pb-8 font-semibold">Contact</h1>
+          <div
+            class="flex justify-center items-center gap-8 lg:items-start flex-wrap lg:flex-nowrap"
+          >
+            <div>
+              <h3 class="text-2xl pb-1">Samarth Savant</h3>
+              <p class="pb-1"><b>Address: </b>Bengaluru, Karnataka, India</p>
+              <p class="pb-1"><b>Email Address: </b>savantsamarth@gmail.com</p>
+              <p class="pb-1">
+                <b>LinkedIn: </b>https://www.linkedin.com/in/samarth-savant/
+              </p>
+              <p><b>Phone Number: </b>+917892743159</p>
+            </div>
+            <form
+              method="post"
+              action="https://getform.io/f/bvrrgvqb"
+              class="box"
+            >
+              <h3 class="text-2xl pb-1">Contact Form</h3>
+              <p>
+                <input
+                  class="border py-1.5 px-3 mb-1 rounded-md bg-yellow-100"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Name"
+                  required
+                />
+              </p>
+              <p>
+                <input
+                  class="border py-1.5 px-3 mb-1 rounded-md bg-yellow-100"
+                  type="email"
+                  name="email"
+                  placeholder="Enter Email"
+                  required
+                />
+              </p>
+              <p>
+                <textarea
+                  class="border py-1.5 px-3 rounded-md mb-1 bg-yellow-100"
+                  rows="3"
+                  cols="40"
+                  name="message"
+                  placeholder="Enter message"
+                  required
+                ></textarea>
+              </p>
+              <button
+                class="text-sm border py-2 px-3 rounded-md bg-yellow-100"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer text-center bg-black text-white py-5">
+        @copyright 2024. All rights reserved.
+      </section>
     </div>
   </body>
 </html>
