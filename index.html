@@ -45,7 +45,7 @@
       >
         <div class="flex justify-between max-w-6xl mx-auto">
           <a href="#"><h1 class="text-3xl font-bold">Samarth Savant</h1></a>
-          <nav class="hidden md:block">
+          <nav class="hidden lg:block">
             <ul class="flex gap-5 h-full items-stretch">
               <li>
                 <a
@@ -81,18 +81,17 @@
       </header>
 
       <section
-        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center"
         id="home"
+        class="lg:h-screen flex justify-center px-3 py-16 md:px-5 lg:px-10 items-center"
       >
-        <div class="grid md:grid-cols-2 gap-5 max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-5 max-w-6xl mx-auto">
           <div class="flex flex-col justify-center">
             <h1 class="text-5xl font-semibold pb-8">Frontend Developer</h1>
             <p class="text-lg">
-              I'm a passionate frontend developer⚡️ driven to craft seamless,
-              user-centric digita l experiences that leave a lasting
-              impression✨.
+              I'm a passionate frontend developer driven to craft seamless,
+              user-centric digital experiences that leave a lasting impression.
             </p>
-            <div class="pt-5 flex gap-3">
+            <div class="pt-5 flex flex-wrap gap-3">
               <a
                 href="https://www.linkedin.com/in/samarth-savant/"
                 target="_blank"
@@ -113,11 +112,21 @@
                   <i class="ri-github-fill"></i> GitHub
                 </button></a
               >
+              <a
+                href="https://drive.google.com/file/d/1Alnxr_Aei0_MmUMBBCaG00qa8VwL1a8M/view?usp=sharing"
+                target="_blank"
+                ><button
+                  class="text-white py-2 px-3 rounded-md"
+                  style="background-color: #dd7003"
+                >
+                  <i class="ri-file-pdf-2-fill"></i> Resume
+                </button></a
+              >
             </div>
           </div>
           <div>
             <img
-              class="mx-auto"
+              class="mx-auto lg:mx-0 lg:ml-auto"
               src="https://picsum.photos/id/2/400/400"
               alt=""
             />
@@ -127,33 +136,33 @@
 
       <section
         id="projects"
-        class="md:h-screen flex justify-center px-10 py-16 md:py-0 md:px-5 lg:px-10 items-center bg-red-400"
+        class="lg:h-screen flex justify-center px-3 py-16 md:px-5 lg:px-10 items-center bg-red-400"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Projects</h1>
-          <div class="grid md:grid-cols-3 gap-5">
+          <div class="grid lg:grid-cols-3 gap-5">
             <div class="card">
               <h3 class="flex justify-between px-1">
                 <span class="font-semibold">Feast Finder</span>
                 <span
                   ><a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://github.com/codersam10/feast-finder-react"
                   >
                     Repo</a
                   >|
                   <a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://main--fancy-lolly-e08455.netlify.app/"
                     >Live</a
                   ></span
                 >
               </h3>
-              <div class="relative rounded-md overflow-hidden">
+              <div class="relative rounded-md overflow-hidden bg-black">
                 <img
-                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  class="h-64 object-contain mx-auto"
                   src="./assets/images/feastfinder.png"
                   alt=""
                 />
@@ -176,23 +185,23 @@
                 <span class="font-semibold">Mart</span>
                 <span
                   ><a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://github.com/codersam10/mart-ecommerce-app-react"
                   >
                     Repo</a
                   >|
                   <a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://codersam10.github.io/mart-ecommerce-app-react/"
                     >Live</a
                   ></span
                 >
               </h3>
-              <div class="relative rounded-md overflow-hidden">
+              <div class="relative rounded-md overflow-hidden bg-black">
                 <img
-                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  class="h-64 object-contain mx-auto"
                   src="./assets/images/mart.png"
                   alt=""
                 />
@@ -213,23 +222,23 @@
                 <span class="font-semibold">Tasks</span>
                 <span
                   ><a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://github.com/codersam10/todo-list-react"
                   >
                     Repo</a
                   >|
                   <a
-                    class="underline"
+                    class="underline hover:text-white"
                     target="_blank"
                     href="https://codersam10.github.io/todo-list-react/"
                     >Live</a
                   ></span
                 >
               </h3>
-              <div class="relative rounded-md overflow-hidden">
+              <div class="relative rounded-md overflow-hidden bg-black">
                 <img
-                  class="rounded-md overflow-hidden h-64 object-contain bg-black"
+                  class="h-64 object-contain mx-auto"
                   src="./assets/images/tasks.png"
                   alt=""
                 />
@@ -248,7 +257,7 @@
 
       <section
         id="about"
-        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center"
+        class="lg:h-screen flex justify-center py-16 px-3 md:px-5 lg:px-10 items-center"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">About</h1>
@@ -270,7 +279,9 @@
             Basic knowledge: Bootstrap 5, Netlify deployment, Github-Pages
             deployment
           </p>
-          <p class="text-6xl flex flex-wrap justify-around pt-10">
+          <p
+            class="text-6xl grid grid-cols-3 md:grid-cols-6 gap-y-4 justify-items-center pt-10"
+          >
             <i class="ri-reactjs-fill"></i><i class="ri-javascript-fill"></i
             ><i class="ri-tailwind-css-fill"></i><i class="ri-github-fill"></i
             ><i class="ri-nodejs-line"></i><i class="ri-bootstrap-fill"></i>
@@ -280,7 +291,7 @@
 
       <section
         id="contact"
-        class="md:h-screen flex justify-center px-10 py-16 md:py-0 items-center bg-yellow-200"
+        class="lg:h-screen flex justify-center px-3 md:px-5 lg:px-10 py-16 items-center bg-yellow-200"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Contact</h1>
@@ -290,11 +301,31 @@
             <div>
               <h3 class="text-2xl pb-1">Samarth Savant</h3>
               <p class="pb-1"><b>Address: </b>Bengaluru, Karnataka, India</p>
-              <p class="pb-1"><b>Email Address: </b><a class="underline" href="mailto:savantsamarth@gmail.com">savantsamarth@gmail.com</a></p>
               <p class="pb-1">
-                <b>LinkedIn: </b><a class="underline" target="_blank" href="https://www.linkedin.com/in/samarth-savant/">https://www.linkedin.com/in/samarth-savant/</a>
+                <b>Email Address: </b
+                ><a
+                  class="underline"
+                  href="mailto:savantsamarth@gmail.com"
+                  >savantsamarth@gmail.com</a
+                >
               </p>
-              <p><b>Phone Number: </b><a class="underline" href="tel:+917892743159">+917892743159</a></p>
+              <p class="pb-1">
+                <b>LinkedIn: </b
+                ><a
+                  class="underline"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/samarth-savant/"
+                  >https://www.linkedin.com/in/samarth-savant/</a
+                >
+              </p>
+              <p>
+                <b>Phone Number: </b
+                ><a
+                  class="underline"
+                  href="tel:+917892743159"
+                  >+917892743159</a
+                >
+              </p>
             </div>
             <form
               method="post"
