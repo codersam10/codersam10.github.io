@@ -1,7 +1,8 @@
-*{
+:root{
   font-family: "Poppins", serif;
   font-style: normal;
   word-break: break-word;
+  scroll-behavior: smooth;
 }
 
 .card p{
