@@ -41,44 +41,47 @@
   <body>
     <div class="wrapper text-lg">
       <header
-        class="sticky top-0 left-0 right-0 py-6 px-5 bg-orange-300/80 backdrop-blur-xl z-50"
+        class="sticky top-0 left-0 right-0 py-6 px-5 bg-linear-to-r from-orange-300/80 to-blue-300/80 backdrop-blur-xl z-50"
       >
         <div class="flex justify-between max-w-6xl mx-auto">
           <a href="#"><h1 class="text-3xl font-bold">Samarth Savant</h1></a>
-          <nav class="hidden lg:block">
-            <ul class="flex gap-5 h-full items-stretch">
-              <li>
-                <a
-                  class="inline-block h-full grid place-content-center"
-                  href="#home"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  class="inline-block h-full grid place-content-center"
-                  href="#projects"
-                  >Projects</a
-                >
-              </li>
-              <li>
-                <a
-                  class="inline-block h-full grid place-content-center"
-                  href="#about"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  class="inline-block h-full grid place-content-center"
-                  href="#contact"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </nav>
         </div>
       </header>
+
+      <nav
+        class="fixed bottom-10 left-1/2 transform -translate-x-1/2 px-5 py-2 bg-linear-to-r from-orange-300/80 to-blue-300/80 backdrop-blur-md rounded-full border-gray-400 break-keep z-50"
+      >
+        <ul class="flex md:gap-5 h-full justify-between rounded-full">
+          <li class="rounded-full py-2 px-2 md:px-4 hover:bg-black/20">
+            <a
+              class="inline-block h-full grid place-content-center"
+              href="#home"
+              >Home</a
+            >
+          </li>
+          <li class="rounded-full py-2 px-2 md:px-4 hover:bg-black/20">
+            <a
+              class="inline-block h-full grid place-content-center"
+              href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li class="rounded-full py-2 px-2 md:px-4 hover:bg-black/20">
+            <a
+              class="inline-block h-full grid place-content-center"
+              href="#about"
+              >About</a
+            >
+          </li>
+          <li class="rounded-full py-2 px-2 md:px-4 hover:bg-black/20">
+            <a
+              class="inline-block h-full grid place-content-center"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
 
       <section
         id="home"
@@ -113,7 +116,7 @@
                 </button></a
               >
               <a
-                href="https://drive.google.com/file/d/1Alnxr_Aei0_MmUMBBCaG00qa8VwL1a8M/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1jCGCwrgUoROR3PHH0YDX9MXguGX0NHWI?usp=sharing"
                 target="_blank"
                 ><button
                   class="text-white py-2 px-3 rounded-md"
@@ -136,7 +139,7 @@
 
       <section
         id="projects"
-        class="lg:h-screen flex justify-center px-3 py-16 md:px-5 lg:px-10 items-center bg-red-400"
+        class="lg:h-screen flex justify-center px-3 py-16 md:px-5 lg:px-10 items-center   bg-orange-300/80"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Projects</h1>
@@ -167,7 +170,7 @@
                   alt=""
                 />
                 <p
-                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                  class="pt-5 text-sm absolute bottom-0 bg-black/80 h-full text-white px-2 py-1"
                 >
                   🍽️ Discover your next culinary adventure with this React-based
                   Restaurant Search app! 📱 Find your faves: 🔍 Search & filter
@@ -206,7 +209,7 @@
                   alt=""
                 />
                 <p
-                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                  class="pt-5 text-sm absolute bottom-0 bg-black/80 h-full text-white px-2 py-1"
                 >
                   🛍️ Shop 'til you drop with this fun e-commerce app! ✨ Built
                   with React, Vite, and the stylish Tailwind CSS, it's easy to
@@ -243,7 +246,7 @@
                   alt=""
                 />
                 <p
-                  class="pt-5 text-sm absolute bottom-0 bg-black/50 text-white px-2 py-1"
+                  class="pt-5 text-sm absolute bottom-0 bg-black/80 h-full text-white px-2 py-1"
                 >
                   Tasks is Your Offline Superpower⚡️. A sleek React PWA for
                   effortlessly managing your to-do list, even without internet.
@@ -263,11 +266,11 @@
           <h1 class="text-5xl pb-8 font-semibold">About</h1>
           <p class="pb-4">
             My journey into web development began with a fascination for how
-            technology can shape human interaction🌐. Throughout my studies in
+            technology can shape human interaction. Throughout my studies in
             Computer Science Engineering, I honed my skills through a
             combination of coursework, personal projects, and a dedication to
-            continuous learning📚, always seeking innovative approaches to
-            problem-solving💡 Skills and Expertise.
+            continuous learning, always seeking innovative approaches to
+            problem-solving Skills and Expertise.
           </p>
           <h2 class="text-2xl font-semibold">Skills</h2>
           <p>
@@ -291,7 +294,7 @@
 
       <section
         id="contact"
-        class="lg:h-screen flex justify-center px-3 md:px-5 lg:px-10 py-16 items-center bg-yellow-200"
+        class="lg:h-screen flex justify-center px-3 md:px-5 lg:px-10 py-16 items-center    bg-blue-300/80"
       >
         <div class="max-w-6xl mx-auto">
           <h1 class="text-5xl pb-8 font-semibold">Contact</h1>
@@ -335,7 +338,7 @@
               <h3 class="text-2xl pb-1">Contact Form</h3>
               <p>
                 <input
-                  class="border py-1.5 px-3 mb-1 rounded-md bg-yellow-100 w-full"
+                  class="border py-1.5 px-3 mb-1 rounded-md bg-white w-full"
                   type="text"
                   name="name"
                   placeholder="Enter Name"
@@ -344,7 +347,7 @@
               </p>
               <p>
                 <input
-                  class="border py-1.5 px-3 mb-1 rounded-md bg-yellow-100 w-full"
+                  class="border py-1.5 px-3 mb-1 rounded-md bg-white w-full"
                   type="email"
                   name="email"
                   placeholder="Enter Email"
@@ -353,7 +356,7 @@
               </p>
               <p>
                 <textarea
-                  class="border py-1.5 px-3 rounded-md mb-1 bg-yellow-100 w-full"
+                  class="border py-1.5 px-3 rounded-md mb-1 bg-white w-full"
                   rows="3"
                   name="message"
                   placeholder="Enter message"
@@ -361,7 +364,7 @@
                 ></textarea>
               </p>
               <button
-                class="text-sm border py-2 px-3 rounded-md bg-yellow-100"
+                class="text-sm border py-2 px-3 rounded-md bg-white"
                 type="submit"
               >
                 Submit
